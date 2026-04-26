@@ -1,0 +1,9 @@
+path_tracker:
+  ros__parameters:
+    global_frame: map
+    robot_base_frame: base_footprint
+    path_topic: /path_tracker/path
+    initial_pose_topic: /path_tracker/initial_pose
+    reset_topic: /path_tracker/reset
+    update_rate_hz: 5.0
+    min_translation_delta_m: 0.05

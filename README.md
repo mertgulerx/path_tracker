@@ -2,6 +2,8 @@
 
 `path_tracker` is a standalone ROS 2 Jazzy package that records a robot trajectory from TF and publishes it as a latched `nav_msgs/Path`.
 
+<img src="https://raw.githubusercontent.com/mertgulerx/readme-assets/main/frontier-exploration/mertgulerx-frontier-exploration-mrtsp.gif" alt="Frontier exploration demo with Greedy MRTSP, map optimization, and preemption on a TurtleBot3 Waffle Pi" width="75%" />
+
 ## Features
 
 - Samples the robot pose from TF at a fixed rate

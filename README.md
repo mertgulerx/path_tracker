@@ -20,9 +20,13 @@
 
 ## Build
 
-From your ROS 2 workspace root:
-
 ```bash
+# Clone into your ROS 2 workspace root
+git clone https://github.com/mertgulerx/path_tracker.git
+
+# Install all ROS dependencies automatically
+rosdep install --from-paths src --ignore-src -r -y
+
 colcon build --packages-select path_tracker
 source install/setup.bash
 ```

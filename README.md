@@ -44,6 +44,9 @@ Or directly with the packaged parameter file:
 ```bash
 ros2 run path_tracker path_tracker_node --ros-args --params-file $(ros2 pkg prefix path_tracker)/share/path_tracker/config/path_tracker.yaml
 ```
+## RViz
+
+Use ```Line Style``` set to ```Billboards```.
 
 ## Runtime Interfaces
 
